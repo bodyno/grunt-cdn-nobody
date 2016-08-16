@@ -1,0 +1,44 @@
+{
+  "name": "grunt-cdn-nobody",
+  "description": "Converts local URLs to CDN ones.",
+  "version": "1.0.3",
+  "author": "bodyno (https://github.com/bodyno)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bodyno/grunt-cdn-nobody"
+  },
+  "bugs": {
+    "url": "https://github.com/bodyno"
+  },
+  "homepage": "https://github.com/bodyno",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "css-url-rewriter": "^0.1.2",
+    "soup": "^0.1.3"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^3.3.0"
+  },
+  "peerDependencies": {
+    "grunt": ">=0.4.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "files": [
+    "tasks"
+  ]
+}
